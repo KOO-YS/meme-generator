@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+body {
+    font-family: 'Poor Story', cursive;
+    /* background-color: ; */
+}
+.panels div{
+    padding-right: 5em;
+    margin-left: 1em;
+    float: left;
+}
+.panel-img{
+    text-align: center;
+    width: 60%;
+    border-right: lawngreen 1px solid;
+}
+.panel-img img{
+    display: inline-block;
+    box-shadow: 3px 3px 3px 3px #999;
+}
+input{
+    border-radius: 1em;
+    padding: 0.4em;
+}
+button {
+    border-radius: 1em;
+    padding: 0.5em 1em;
+    background-color: coral;
+}
