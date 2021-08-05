@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        
+    </head>
+
+<body>
+    <h1>method list for meme generator</h1>
+    <br>
+<ul>
+    <li>file upload</li>
+    <br><br><br><br><br><br><br><br><br>
+    <div class="upload" id="upload">
+
+        <form action="post" enctype="multipart/form-data">
+            <!-- <input type="file" name="uploadFile" id="uploadFile" onchange="uploadFile(this)"  accept="image/*" /> -->
+            <input type="file" name="uploadFile" id="uploadFile" onchange="uploadImg(this)"  accept="image/*" />
+        </form>
+        <div class="file-info">
+            <p>FILE NAME: </p>
+            <p id="filename"></p>
+        </div>
+        <div class="submit" id="submit">SUBMIT</div>
+        
+
+    <div class="preview" id="preview">
+
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+    <li>file download</li>
+    <br><br><br><br><br><br><br><br><br>
+    
+    <a href="img/pooh.jpg" download><button>이미지 다운로드 as a tag</button></a>
+    
+    <br><br><br><br><br><br><br><br><br>
+
+    <div id="konva-frame">
+        
+
+    </div>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <li>update text in img</li>
+</ul>
+<script src="https://unpkg.com/konva@8/konva.min.js"></script>  
+<script src="/js/sample.js"></script>
+
+</body>
+
+</html>
