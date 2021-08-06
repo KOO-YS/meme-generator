@@ -4,7 +4,7 @@
 #### 📕 DESCRIPTION
 인터넷에 떠도는 밈📸 손쉽게 수정해보자
 #### 📙 [WIKI](https://github.com/KOO-YS/meme-generator/wiki)
-#### 📒 
+#### 📒 구현 후 리펙토링
 
 
 
